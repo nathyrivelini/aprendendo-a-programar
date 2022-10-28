@@ -1,14 +1,31 @@
 body {
-	background: #CCCCCC
+	
 }
 
-#banner {
+.top{
+	background: #cccccc;
+	padding: 30px;
+}
+
+
+.banner {
 	width: 100%;
+
+}
+
+.principal{
+	background: #CCCCCC;
+	padding: 30px;
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 	font-size: 50px;
+}
+
+.titulo-centralizado{
+	text-align: center;
+	font-size: 30px;
 }
 
 p {
@@ -21,4 +38,26 @@ p {
 
 em strong {
 	color: #FF0000;
+}
+
+.passos{
+	background: #ffffff;
+	padding: 20px;
+}
+
+.itens {
+	font-style: italic;
+	font-size: 20px;
+
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagens-passos {
+	width: 50%;
 }
